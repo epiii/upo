@@ -1,6 +1,10 @@
 # upo
 [unity] UFO - 2D Game 
 
-just do it based on UNITY's official tutorial on youtube
-also few day ago followed mini online meet up (kulgram) from one of PHP community. They pratice to make this game      
+just do it based on online workshop (kulgram) that held by femalegeek PHP Indonesia.       
 
+- complete tutorial : https://www.youtube.com/watch?v=jTtCsOjNwJQ&list=PLX2vGYjWbI0RZ3M5zSs-cegtIzv-FBi4q 
+- demo : ...
+- community : 
+  >>PHP Indonesia : https://web.facebook.com/groups/35688476100/
+  >>Femalegeek : https://www.facebook.com/femalegeek/
