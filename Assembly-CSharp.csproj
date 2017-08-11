@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\script\cameraController.cs" />
      <Compile Include="Assets\script\playerController.cs" />
+     <Compile Include="Assets\script\restartGame.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

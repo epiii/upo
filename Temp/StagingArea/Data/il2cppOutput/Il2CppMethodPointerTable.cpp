@@ -7780,6 +7780,7 @@ extern "C" void Application_get_isEditor_m2474583393 ();
 extern "C" void Application_get_platform_m3989224144 ();
 extern "C" void Application_CallLogCallback_m3408386792 ();
 extern "C" void Application_InvokeOnBeforeRender_m799598445 ();
+extern "C" void Application_LoadLevel_m393995325 ();
 extern "C" void LogCallback__ctor_m898185969 ();
 extern "C" void LogCallback_Invoke_m3921378796 ();
 extern "C" void LogCallback_BeginInvoke_m2485641857 ();
@@ -7971,7 +7972,9 @@ extern "C" void WillRenderCanvases_EndInvoke_m3215676440 ();
 extern "C" void CanvasGroup_get_alpha_m1304564441 ();
 extern "C" void CanvasGroup_set_alpha_m3292984624 ();
 extern "C" void CanvasGroup_get_interactable_m3354621007 ();
+extern "C" void CanvasGroup_set_interactable_m2046144056 ();
 extern "C" void CanvasGroup_get_blocksRaycasts_m3945388797 ();
+extern "C" void CanvasGroup_set_blocksRaycasts_m3812230476 ();
 extern "C" void CanvasGroup_get_ignoreParentGroups_m534041855 ();
 extern "C" void CanvasGroup_IsRaycastLocationValid_m1999696282 ();
 extern "C" void CanvasRenderer_SetColor_m1241254365 ();
@@ -9028,8 +9031,15 @@ extern "C" void Resources_GetBuiltinResource_m582410469 ();
 extern "C" void Rigidbody2D_AddForce_m3200488178 ();
 extern "C" void Rigidbody2D_INTERNAL_CALL_AddForce_m1958598324 ();
 extern "C" void Scene_get_handle_m1555912301_AdjustorThunk ();
+extern "C" void Scene_get_name_m745914591_AdjustorThunk ();
 extern "C" void Scene_GetHashCode_m3223653899_AdjustorThunk ();
 extern "C" void Scene_Equals_m3588907349_AdjustorThunk ();
+extern "C" void Scene_GetNameInternal_m3140297940 ();
+extern "C" void SceneManager_GetActiveScene_m2964039490 ();
+extern "C" void SceneManager_INTERNAL_CALL_GetActiveScene_m1595803318 ();
+extern "C" void SceneManager_LoadScene_m1619949821 ();
+extern "C" void SceneManager_LoadScene_m1386820036 ();
+extern "C" void SceneManager_LoadSceneAsyncNameIndexInternal_m3279056043 ();
 extern "C" void SceneManager_Internal_SceneLoaded_m4005732915 ();
 extern "C" void SceneManager_Internal_SceneUnloaded_m4108957131 ();
 extern "C" void SceneManager_Internal_ActiveSceneChanged_m1162592635 ();
@@ -9161,6 +9171,7 @@ extern "C" void ThreadAndSerializationSafeAttribute__ctor_m3736564847 ();
 extern "C" void Time_get_deltaTime_m2233168104 ();
 extern "C" void Time_get_unscaledTime_m862335845 ();
 extern "C" void Time_get_unscaledDeltaTime_m4281640537 ();
+extern "C" void Time_set_timeScale_m2194722837 ();
 extern "C" void Time_get_realtimeSinceStartup_m357614587 ();
 extern "C" void TooltipAttribute__ctor_m2640804852 ();
 extern "C" void Touch_get_fingerId_m4109475843_AdjustorThunk ();
@@ -10876,16 +10887,27 @@ extern "C" void cameraController_Start_m767029302 ();
 extern "C" void cameraController_LateUpdate_m1535658767 ();
 extern "C" void playerController__ctor_m3655823976 ();
 extern "C" void playerController_Start_m3984132280 ();
+extern "C" void playerController_StartCountDown_m678210156 ();
+extern "C" void playerController_StartMainGame_m589893185 ();
+extern "C" void playerController_RestartGame_m1778287465 ();
 extern "C" void playerController_FixedUpdate_m1512828103 ();
 extern "C" void playerController_IsTimeUp_m4154078052 ();
 extern "C" void playerController_CountTime_m4255902674 ();
 extern "C" void playerController_SetCountTimeText_m2980802437 ();
 extern "C" void playerController_IsCoinCompleted_m3670099228 ();
 extern "C" void playerController_CountScore_m1973932923 ();
-extern "C" void playerController_CountBonus_m1311674744 ();
 extern "C" void playerController_SetScoreText_m4227517883 ();
 extern "C" void playerController_OnTriggerEnter2D_m3009602272 ();
-extern const Il2CppMethodPointer g_MethodPointers[10868] = 
+extern "C" void playerController_CallDialogBox_m453169755 ();
+extern "C" void U3CStartCountDownU3Ec__Iterator0__ctor_m3114898789 ();
+extern "C" void U3CStartCountDownU3Ec__Iterator0_MoveNext_m512637175 ();
+extern "C" void U3CStartCountDownU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2130091307 ();
+extern "C" void U3CStartCountDownU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m38137539 ();
+extern "C" void U3CStartCountDownU3Ec__Iterator0_Dispose_m3136190956 ();
+extern "C" void U3CStartCountDownU3Ec__Iterator0_Reset_m2917730746 ();
+extern "C" void restartGame__ctor_m669150084 ();
+extern "C" void restartGame_RestartGame_m1273959543 ();
+extern const Il2CppMethodPointer g_MethodPointers[10890] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -18650,6 +18672,7 @@ extern const Il2CppMethodPointer g_MethodPointers[10868] =
 	Application_get_platform_m3989224144,
 	Application_CallLogCallback_m3408386792,
 	Application_InvokeOnBeforeRender_m799598445,
+	Application_LoadLevel_m393995325,
 	LogCallback__ctor_m898185969,
 	LogCallback_Invoke_m3921378796,
 	LogCallback_BeginInvoke_m2485641857,
@@ -18841,7 +18864,9 @@ extern const Il2CppMethodPointer g_MethodPointers[10868] =
 	CanvasGroup_get_alpha_m1304564441,
 	CanvasGroup_set_alpha_m3292984624,
 	CanvasGroup_get_interactable_m3354621007,
+	CanvasGroup_set_interactable_m2046144056,
 	CanvasGroup_get_blocksRaycasts_m3945388797,
+	CanvasGroup_set_blocksRaycasts_m3812230476,
 	CanvasGroup_get_ignoreParentGroups_m534041855,
 	CanvasGroup_IsRaycastLocationValid_m1999696282,
 	CanvasRenderer_SetColor_m1241254365,
@@ -19898,8 +19923,15 @@ extern const Il2CppMethodPointer g_MethodPointers[10868] =
 	Rigidbody2D_AddForce_m3200488178,
 	Rigidbody2D_INTERNAL_CALL_AddForce_m1958598324,
 	Scene_get_handle_m1555912301_AdjustorThunk,
+	Scene_get_name_m745914591_AdjustorThunk,
 	Scene_GetHashCode_m3223653899_AdjustorThunk,
 	Scene_Equals_m3588907349_AdjustorThunk,
+	Scene_GetNameInternal_m3140297940,
+	SceneManager_GetActiveScene_m2964039490,
+	SceneManager_INTERNAL_CALL_GetActiveScene_m1595803318,
+	SceneManager_LoadScene_m1619949821,
+	SceneManager_LoadScene_m1386820036,
+	SceneManager_LoadSceneAsyncNameIndexInternal_m3279056043,
 	SceneManager_Internal_SceneLoaded_m4005732915,
 	SceneManager_Internal_SceneUnloaded_m4108957131,
 	SceneManager_Internal_ActiveSceneChanged_m1162592635,
@@ -20031,6 +20063,7 @@ extern const Il2CppMethodPointer g_MethodPointers[10868] =
 	Time_get_deltaTime_m2233168104,
 	Time_get_unscaledTime_m862335845,
 	Time_get_unscaledDeltaTime_m4281640537,
+	Time_set_timeScale_m2194722837,
 	Time_get_realtimeSinceStartup_m357614587,
 	TooltipAttribute__ctor_m2640804852,
 	Touch_get_fingerId_m4109475843_AdjustorThunk,
@@ -21746,13 +21779,24 @@ extern const Il2CppMethodPointer g_MethodPointers[10868] =
 	cameraController_LateUpdate_m1535658767,
 	playerController__ctor_m3655823976,
 	playerController_Start_m3984132280,
+	playerController_StartCountDown_m678210156,
+	playerController_StartMainGame_m589893185,
+	playerController_RestartGame_m1778287465,
 	playerController_FixedUpdate_m1512828103,
 	playerController_IsTimeUp_m4154078052,
 	playerController_CountTime_m4255902674,
 	playerController_SetCountTimeText_m2980802437,
 	playerController_IsCoinCompleted_m3670099228,
 	playerController_CountScore_m1973932923,
-	playerController_CountBonus_m1311674744,
 	playerController_SetScoreText_m4227517883,
 	playerController_OnTriggerEnter2D_m3009602272,
+	playerController_CallDialogBox_m453169755,
+	U3CStartCountDownU3Ec__Iterator0__ctor_m3114898789,
+	U3CStartCountDownU3Ec__Iterator0_MoveNext_m512637175,
+	U3CStartCountDownU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2130091307,
+	U3CStartCountDownU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m38137539,
+	U3CStartCountDownU3Ec__Iterator0_Dispose_m3136190956,
+	U3CStartCountDownU3Ec__Iterator0_Reset_m2917730746,
+	restartGame__ctor_m669150084,
+	restartGame_RestartGame_m1273959543,
 };

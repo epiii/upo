@@ -157,6 +157,8 @@ UnityEngine.CanvasGroup::get_ignoreParentGroups
 UnityEngine.CanvasGroup::get_interactable
 UnityEngine.CanvasGroup::get_alpha
 UnityEngine.CanvasGroup::set_alpha
+UnityEngine.CanvasGroup::set_blocksRaycasts
+UnityEngine.CanvasGroup::set_interactable
 UnityEngine.CanvasRenderer::get_cull
 UnityEngine.CanvasRenderer::get_hasMoved
 UnityEngine.CanvasRenderer::get_absoluteDepth
@@ -426,6 +428,9 @@ UnityEngine.RenderTexture::Internal_GetWidth
 UnityEngine.Resources::GetBuiltinResource
 UnityEngine.Resources::Load
 UnityEngine.Rigidbody2D::INTERNAL_CALL_AddForce
+UnityEngine.SceneManagement.Scene::GetNameInternal
+UnityEngine.SceneManagement.SceneManager::INTERNAL_CALL_GetActiveScene
+UnityEngine.SceneManagement.SceneManager::LoadSceneAsyncNameIndexInternal
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
 UnityEngine.Screen::get_dpi
@@ -465,6 +470,7 @@ UnityEngine.Time::get_deltaTime
 UnityEngine.Time::get_realtimeSinceStartup
 UnityEngine.Time::get_unscaledDeltaTime
 UnityEngine.Time::get_unscaledTime
+UnityEngine.Time::set_timeScale
 UnityEngine.Transform::IsChildOf
 UnityEngine.Transform::get_childCount
 UnityEngine.Transform::INTERNAL_CALL_InverseTransformPoint

@@ -21573,6 +21573,20 @@ void* RuntimeInvoker_Boolean_t3825574718_PlayableOutput_t988259697 (Il2CppMethod
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Scene_t1684909666 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef Scene_t1684909666  (*Func)(void* obj, const RuntimeMethod* method);
+	Scene_t1684909666  ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Void_t1841601450_SceneU26_t1773220846 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Scene_t1684909666 * p1, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (Scene_t1684909666 *)args[0], methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_Void_t1841601450_Scene_t1684909666_Int32_t2071877448 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Scene_t1684909666  p1, int32_t p2, const RuntimeMethod* method);
@@ -27243,7 +27257,7 @@ void* RuntimeInvoker_RuntimeObject_FloatTween_t2986189219 (Il2CppMethodPointer m
 	return ret;
 }
 
-extern const InvokerMethod g_Il2CppInvokerPointers[1680] = 
+extern const InvokerMethod g_Il2CppInvokerPointers[1682] = 
 {
 	RuntimeInvoker_Void_t1841601450,
 	RuntimeInvoker_Boolean_t3825574718_RuntimeObject,
@@ -28115,6 +28129,8 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1680] =
 	RuntimeInvoker_Void_t1841601450_PlayableOutputHandle_t551742311,
 	RuntimeInvoker_PlayableOutput_t988259697,
 	RuntimeInvoker_Boolean_t3825574718_PlayableOutput_t988259697,
+	RuntimeInvoker_Scene_t1684909666,
+	RuntimeInvoker_Void_t1841601450_SceneU26_t1773220846,
 	RuntimeInvoker_Void_t1841601450_Scene_t1684909666_Int32_t2071877448,
 	RuntimeInvoker_Void_t1841601450_Scene_t1684909666,
 	RuntimeInvoker_Void_t1841601450_Scene_t1684909666_Scene_t1684909666,

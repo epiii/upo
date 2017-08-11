@@ -2,6 +2,7 @@
 <assembly fullname="Assembly-CSharp">
 <type fullname="cameraController" preserve="all"/>
 <type fullname="playerController" preserve="all"/>
+<type fullname="restartGame" preserve="all"/>
 </assembly>
 <assembly fullname="UnityEngine.UI">
 <type fullname="UnityEngine.EventSystems.PhysicsRaycaster" preserve="all"/>

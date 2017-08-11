@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 178
   Total Field Removals = 793
-  Total Method Removals = 10493
+  Total Method Removals = 10482
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -9456,7 +9456,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 49
   Total Field Removals = 54
-  Total Method Removals = 4204
+  Total Method Removals = 4193
   References Removed = 0
 ---------------------------------------------------
     AOT.MonoPInvokeCallbackAttribute
@@ -10011,7 +10011,6 @@ Summary:
         Internal_ExternalCall(System.String)
         InvokeOnAdvertisingIdentifierCallback(System.String,System.Boolean)
         LoadLevel(System.Int32)
-        LoadLevel(System.String)
         LoadLevelAdditive(System.Int32)
         LoadLevelAdditive(System.String)
         LoadLevelAdditiveAsync(System.Int32)
@@ -10554,9 +10553,7 @@ Summary:
         set_worldCamera(UnityEngine.Camera)
     UnityEngine.CanvasGroup
         .ctor()
-        set_blocksRaycasts(System.Boolean)
         set_ignoreParentGroups(System.Boolean)
-        set_interactable(System.Boolean)
     UnityEngine.CanvasRenderer
         .ctor()
         AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>)
@@ -13760,7 +13757,6 @@ Summary:
         get_isDirty()
         get_isLoaded()
         get_loadingState()
-        get_name()
         get_path()
         get_rootCount()
         GetBuildIndexInternal(System.Int32)
@@ -13768,7 +13764,6 @@ Summary:
         GetIsDirtyInternal(System.Int32)
         GetIsLoadedInternal(System.Int32)
         GetLoadingStateInternal(System.Int32)
-        GetNameInternal(System.Int32)
         GetPathInternal(System.Int32)
         GetRootCountInternal(System.Int32)
         GetRootGameObjects()
@@ -13789,14 +13784,12 @@ Summary:
         CreateScene(System.String)
         get_sceneCount()
         get_sceneCountInBuildSettings()
-        GetActiveScene()
         GetAllScenes()
         GetSceneAt(System.Int32)
         GetSceneByBuildIndex(System.Int32)
         GetSceneByName(System.String)
         GetSceneByPath(System.String)
         INTERNAL_CALL_CreateScene(System.String,UnityEngine.SceneManagement.Scene&)
-        INTERNAL_CALL_GetActiveScene(UnityEngine.SceneManagement.Scene&)
         INTERNAL_CALL_GetSceneAt(System.Int32,UnityEngine.SceneManagement.Scene&)
         INTERNAL_CALL_GetSceneByBuildIndex(System.Int32,UnityEngine.SceneManagement.Scene&)
         INTERNAL_CALL_GetSceneByName(System.String,UnityEngine.SceneManagement.Scene&)
@@ -13808,13 +13801,10 @@ Summary:
         INTERNAL_CALL_UnloadSceneInternal(UnityEngine.SceneManagement.Scene&)
         LoadScene(System.Int32)
         LoadScene(System.Int32,UnityEngine.SceneManagement.LoadSceneMode)
-        LoadScene(System.String)
-        LoadScene(System.String,UnityEngine.SceneManagement.LoadSceneMode)
         LoadSceneAsync(System.Int32)
         LoadSceneAsync(System.Int32,UnityEngine.SceneManagement.LoadSceneMode)
         LoadSceneAsync(System.String)
         LoadSceneAsync(System.String,UnityEngine.SceneManagement.LoadSceneMode)
-        LoadSceneAsyncNameIndexInternal(System.String,System.Int32,System.Boolean,System.Boolean)
         MergeScenes(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)
         MoveGameObjectToScene(UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
         remove_activeSceneChanged(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>)
@@ -14417,7 +14407,6 @@ Summary:
         set_fixedDeltaTime(System.Single)
         set_maximumDeltaTime(System.Single)
         set_maximumParticleDeltaTime(System.Single)
-        set_timeScale(System.Single)
     UnityEngine.Touch
         get_altitudeAngle()
         get_azimuthAngle()

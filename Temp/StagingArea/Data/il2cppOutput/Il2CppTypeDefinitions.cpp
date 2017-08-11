@@ -4271,6 +4271,7 @@ extern const RuntimeType UnityAction_2_t1903595547_0_0_17 = { &UnityAction_2_t19
 
 extern const RuntimeType Scene_t1684909666_0_0_0 = { (void*)1275, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const RuntimeType Scene_t1684909666_1_0_0 = { (void*)1275, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Scene_t1684909666_1_0_2 = { (void*)1275, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 extern const RuntimeType LoadSceneMode_t2981886439_0_0_0 = { (void*)1276, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const RuntimeType LoadSceneMode_t2981886439_1_0_0 = { (void*)1276, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
@@ -6708,6 +6709,7 @@ extern const RuntimeType List_1_t2665681875_0_0_33 = { &List_1_t2665681875_Gener
 
 extern const RuntimeType CanvasGroup_t3296560743_0_0_0 = { (void*)1355, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType CanvasGroup_t3296560743_1_0_0 = { (void*)1355, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CanvasGroup_t3296560743_0_0_6 = { (void*)1355, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t772084570_GenericClass = { 25, { &GenInst_CanvasGroup_t3296560743_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t772084570_0_0_0 = { &IEnumerator_1_t772084570_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -13874,6 +13876,7 @@ extern const RuntimeType SelectionState_t3187567897_0_0_32854 = { (void*)1648, 3
 extern const RuntimeType Button_t2872111280_0_0_0 = { (void*)1649, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Button_t2872111280_1_0_0 = { (void*)1649, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const RuntimeType Button_t2872111280_0_0_3 = { (void*)1649, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Button_t2872111280_0_0_6 = { (void*)1649, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType ButtonClickedEvent_t2455055323_0_0_0 = { (void*)1650, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType ButtonClickedEvent_t2455055323_0_0_1 = { (void*)1650, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
@@ -14082,6 +14085,13 @@ extern const RuntimeType cameraController_t4112230091_1_0_0 = { (void*)1710, 0, 
 
 extern const RuntimeType playerController_t1935413305_0_0_0 = { (void*)1711, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType playerController_t1935413305_1_0_0 = { (void*)1711, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType playerController_t1935413305_0_0_3 = { (void*)1711, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+extern const RuntimeType U3CStartCountDownU3Ec__Iterator0_t1953790906_0_0_0 = { (void*)1712, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartCountDownU3Ec__Iterator0_t1953790906_1_0_0 = { (void*)1712, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType restartGame_t690574043_0_0_0 = { (void*)1713, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType restartGame_t690574043_1_0_0 = { (void*)1713, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IComparer_1_t1676750663_GenericClass = { 168, { &GenInst_DefaultComparer_t3074655092_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType IComparer_1_t1676750663_0_0_0 = { &IComparer_1_t1676750663_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -14116,7 +14126,7 @@ extern const RuntimeType TimeSpanU5BU5D_t1313935688_0_0_0 = { (void*)&TimeSpan_t
 extern const RuntimeType TypeTagU5BU5D_t582616213_0_0_0 = { (void*)&TypeTag_t141209596_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType ITrackingHandlerU5BU5D_t194660197_0_0_0 = { (void*)&ITrackingHandler_t2759960940_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const RuntimeType* const  g_Il2CppTypeTable[7421] = 
+extern const RuntimeType* const  g_Il2CppTypeTable[7429] = 
 {
 	&IEnumerator_1_t164973122_0_0_0,
 	&RuntimeObject_0_0_0,
@@ -20103,6 +20113,7 @@ extern const RuntimeType* const  g_Il2CppTypeTable[7421] =
 	&LoadSceneMode_t2981886439_0_0_32854,
 	&SceneManager_t90660965_0_0_0,
 	&SceneManager_t90660965_1_0_0,
+	&Scene_t1684909666_1_0_2,
 	&UnityAction_2_t1903595547_0_0_17,
 	&UnityAction_1_t3051495417_0_0_17,
 	&UnityAction_2_t606618774_0_0_17,
@@ -21481,6 +21492,13 @@ extern const RuntimeType* const  g_Il2CppTypeTable[7421] =
 	&playerController_t1935413305_1_0_0,
 	&Rigidbody2D_t502193897_0_0_1,
 	&Text_t356221433_0_0_6,
+	&Button_t2872111280_0_0_6,
+	&CanvasGroup_t3296560743_0_0_6,
+	&U3CStartCountDownU3Ec__Iterator0_t1953790906_0_0_0,
+	&U3CStartCountDownU3Ec__Iterator0_t1953790906_1_0_0,
+	&playerController_t1935413305_0_0_3,
+	&restartGame_t690574043_0_0_0,
+	&restartGame_t690574043_1_0_0,
 	&IEnumerator_1_t1705424029_0_0_0,
 	&IEnumerator_1_t4085313661_0_0_0,
 	&IList_1_t260801773_0_0_0,
