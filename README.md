@@ -1,10 +1,8 @@
 # upo
 [unity] UFO - 2D Game 
 
-
 just do it based on online workshop (kulgram) that held by Femalegeek (PHP Indonesia).       
-
-- demo : http://epiii.githu.io
+- demo : http://epiii.github.io
 - community : 
   >>PHP Indonesia : https://web.facebook.com/groups/35688476100/
   >>Femalegeek : https://www.facebook.com/femalegeek/
